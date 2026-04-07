@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//d/AI/AI-progect/Testcase_generation/%USERPROFILE%/.claude/plugins/cache/anthropic-agent-skills/document-skills/b0cbd3df1533/skills 2>/dev/**)",
+      "Bash(echo $USERPROFILE)",
+      "Bash(ls -la \"C:\\\\Users\\\\Administrator\\\\.claude\\\\plugins\\\\cache\\\\anthropic-agent-skills\\\\document-skills\\\\b0cbd3df1533\\\\skills\"\" 2>/dev/null || echo \"Directory not found \")"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /d/AI/AI-progect -type f -name *.py -exec grep -l \"test.*case\\\\|testcase\\\\|TestCase\" {})",
+      "Bash(2)",
+      "Bash(python -m venv --help)",
+      "Bash(python -m venv venv)",
+      "Bash(venv/Scripts/pip install:*)",
+      "Bash(curl -s http://localhost:11434/api/version)",
+      "Bash(venv/Scripts/python scripts/main.py --document examples/sample_design.txt --output examples/test_cases.xlsx --max-cases 2)",
+      "Bash(venv/Scripts/python scripts/verify_excel.py)",
+      "Bash(venv/Scripts/python -c \"import docx; print\\(''python-docx version:'', docx.__version__\\)\")",
+      "Bash(venv/Scripts/python test_docx.py)",
+      "Bash(venv/Scripts/python generate_login_testcases.py)",
+      "Bash(venv/Scripts/python check_generated_excel.py)",
+      "Bash(venv/Scripts/python generate_login_testcases_v2.py)",
+      "Bash(venv/Scripts/python check_v2_excel.py)",
+      "Bash(venv/Scripts/python compare_excel_files.py)"
+    ]
+  }
+}

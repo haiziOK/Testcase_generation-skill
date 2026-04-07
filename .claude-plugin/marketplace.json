@@ -1,0 +1,12 @@
+{
+  "name": "testcase-generation-marketplace",
+  "owner": { "name": "haiziOK" },
+  "plugins": [
+    {
+      "name": "Testcase_generation",
+      "source": "./skills/Testcase_generation",
+      "description": "Auto-generate Excel test cases from design documents...",
+      "version": "1.0.0"
+    }
+  ]
+}
