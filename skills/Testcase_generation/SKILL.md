@@ -1,7 +1,7 @@
 ---
 name: Testcase_generation
-description: "使用此技能从设计文档、现有测试用例图谱和测试经验总结图谱生成Excel测试用例。该技能基于输入文档和图谱创建结构化的Excel测试用例，支持多种格式和交互式提示。"
-license: MIT. LICENSE.txt 包含完整条款
+description: 使用此技能从设计文档、现有测试用例图谱和测试经验总结图谱生成Excel测试用例。该技能基于输入文档和图谱创建结构化的Excel测试用例，支持多种格式和交互式提示。
+license: MIT
 ---
 
 # 输出要求
